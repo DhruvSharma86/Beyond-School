@@ -1,0 +1,52 @@
+# Local-only Windows Git automation script
+/Git-Auto-Commit-Push.cmd
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# Xcode user data and generated build products
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+
+# Swift Package Manager build caches and local workspace state
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/xcode/xcuserdata/
+
+# Python development environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local logs, temporary files, and generated packaging output
+*.log
+*.tmp
+*.temp
+*.zip
+dist/
+
+# Local credentials, private keys, and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+.secrets/
+secrets/
+credentials/
+*.local
+local.xcconfig
